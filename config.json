@@ -1,22 +1,19 @@
 {
   "inbounds": [
     {
-      "port": 443,
+      "port": 8080,
       "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "id": "36459fd0-0c89-4733-b20e-067ffc341bd2",
+            "id": "ec814470-0ccb-4795-8673-5c01a10f8b2c",
             "level": 0
           }
         ],
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/TG-@Not_Ragnar"
-        }
+        "network": "ws"
       }
     }
   ],
