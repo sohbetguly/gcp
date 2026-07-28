@@ -727,7 +727,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/TG-@Not_Ragnar"
+          "path": "/"
         }
       }
     }
