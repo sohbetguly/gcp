@@ -6,6 +6,10 @@
       "settings": {
         "clients": [
           {
+            "id": "7b9a5111-69f0-43ad-9bbd-95b5e16da47c",
+            "level": 0
+          },
+          {
             "id": "b032dcf6-d95a-46cd-9203-51bfc5523457",
             "level": 0
           },
