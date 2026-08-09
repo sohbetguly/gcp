@@ -202,7 +202,3 @@ sudo docker compose down
 sudo docker compose up -d
 
 sudo apt update && sudo apt upgrade -y
-
-sudo apt update
-sudo apt install speedtest-cli -y
-speedtest
