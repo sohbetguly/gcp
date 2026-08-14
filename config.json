@@ -6,6 +6,18 @@
       "settings": {
         "clients": [
           {
+            "id": "02501fdc-df56-4c14-b9ee-be53099e6ab2",
+            "level": 0
+          },
+          {
+            "id": "51f3894c-7ae5-4450-91db-708aaa6d002a",
+            "level": 0
+          },
+          {
+            "id": "5b23dc51-32e2-4d69-bbe5-07c0f3d279c0",
+            "level": 0
+          },
+          {
             "id": "7f3f1324-f476-48e6-a0d7-aa1c5bb457f8",
             "level": 0
           },
