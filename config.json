@@ -6,6 +6,34 @@
       "settings": {
         "clients": [
           {
+            "id": "7f3f1324-f476-48e6-a0d7-aa1c5bb457f8",
+            "level": 0
+          },
+          {
+            "id": "263217a0-0858-4406-9727-1dfe88fd97e8",
+            "level": 0
+          },
+          {
+            "id": "bb6fe704-d7c3-4133-b0ff-d9f96e67944c",
+            "level": 0
+          },
+          {
+            "id": "7109f04e-a8c3-4e35-af89-91275b64393b",
+            "level": 0
+          },
+          {
+            "id": "bc36d8d0-0633-42fa-a3d5-462c069fa191",
+            "level": 0
+          },
+          {
+            "id": "6a417f33-b9e9-4b8f-ba52-815fe64ea508",
+            "level": 0
+          },
+          {
+            "id": "a71c0d11-3bbe-4bc5-94b4-e03b059dc868",
+            "level": 0
+          },
+          {
             "id": "7b9a5111-69f0-43ad-9bbd-95b5e16da47c",
             "level": 0
           },
@@ -166,10 +194,6 @@
             "level": 0
           },
           {
-            "id": "a8e8a32a-ddca-43ef-8a32-4217e97039d3",
-            "level": 0
-          },
-          {
             "id": "bf52cf0d-a2f9-4470-b9d3-d4ac60f194b3",
             "level": 0
           },
@@ -210,15 +234,7 @@
             "level": 0
           },
           {
-            "id": "02b11a53-4023-4f41-badf-c9e2dc376343",
-            "level": 0
-          },
-          {
             "id": "aba499fd-5c45-4ff3-b2dc-abdcfebea072",
-            "level": 0
-          },
-          {
-            "id": "df7cfb0b-7668-4685-a2e5-ec485fe2b813",
             "level": 0
           },
           {
@@ -330,10 +346,6 @@
             "level": 0
           },
           {
-            "id": "902ec2d4-0dd0-43c0-beb0-a79d1a796ec2",
-            "level": 0
-          },
-          {
             "id": "cf711590-7874-4801-8c06-6ad418412f65",
             "level": 0
           },
@@ -382,10 +394,6 @@
             "level": 0
           },
           {
-            "id": "81aecf48-7ca7-4555-9a06-0720acffd28d",
-            "level": 0
-          },
-          {
             "id": "e2d40f96-e3de-4725-9318-fe927d54707e",
             "level": 0
           },
@@ -395,10 +403,6 @@
           },
           {
             "id": "8966c45c-fe82-42d6-874b-75b6613a3443",
-            "level": 0
-          },
-          {
-            "id": "01706837-aef1-45ba-af1b-f14fcf32b53d",
             "level": 0
           },
           {
