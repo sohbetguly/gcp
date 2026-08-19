@@ -88,7 +88,7 @@ services:
   remnanode:
     container_name: remnanode
     hostname: remnanode
-    image: remnawave/node:latest
+    image: remnawave/node:3.2.2
     network_mode: host
     restart: always
     ulimits:
