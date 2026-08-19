@@ -22,7 +22,7 @@ import time
 from collections import defaultdict
 
 LOGFILE = "/var/log/remnanode/access.log"
-MAX_IPS_PER_USER = 10
+MAX_IPS_PER_USER = 1
 WINDOW_SECONDS = 45      # how long an IP counts as "currently connected"
 BAN_SECONDS = 600        # 10 minutes
 IPSET_NAME = "blocked_ips"
