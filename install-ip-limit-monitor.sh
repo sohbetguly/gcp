@@ -143,12 +143,28 @@ else
     fi
 fi
 
-echo "== Ensuring iptables DROP rule =="
+echo "== Ensuring iptables DROP rule (INPUT) =="
 if ! iptables -C INPUT -m set --match-set "$IPSET_NAME" src -j DROP 2>/dev/null; then
     iptables -A INPUT -m set --match-set "$IPSET_NAME" src -j DROP
-    echo "added iptables rule"
+    echo "added iptables INPUT rule"
 else
-    echo "iptables rule already present"
+    echo "iptables INPUT rule already present"
+fi
+
+# If the target service runs inside Docker (e.g. remnanode), traffic to its
+# published ports is routed through Docker's own forwarding rules and never
+# touches INPUT. Docker guarantees DOCKER-USER is always evaluated first, so
+# the ban rule must also live there or bans will silently do nothing.
+echo "== Ensuring iptables DROP rule (DOCKER-USER) =="
+if command -v docker >/dev/null 2>&1 && iptables -L DOCKER-USER -n >/dev/null 2>&1; then
+    if ! iptables -C DOCKER-USER -m set --match-set "$IPSET_NAME" src -j DROP 2>/dev/null; then
+        iptables -I DOCKER-USER -m set --match-set "$IPSET_NAME" src -j DROP
+        echo "added iptables DOCKER-USER rule"
+    else
+        echo "iptables DOCKER-USER rule already present"
+    fi
+else
+    echo "Docker / DOCKER-USER chain not found — skipping (host-only setup)"
 fi
 
 # Persist iptables rules across reboot if netfilter-persistent is available
